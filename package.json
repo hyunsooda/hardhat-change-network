@@ -1,9 +1,9 @@
 {
-  "name": "hardhat-change-network",
+  "name": "modified-hardhat-change-network",
   "version": "0.0.7",
   "description": "Hardhat TypeScript plugin boilerplate",
-  "repository": "github:dmihal/hardhat-change-network",
-  "author": "David Mihal",
+  "repository": "github:hyunsooda/hardhat-change-network",
+  "author": "Modified by Hyunsoo Shin (Origin author: David Mihal)",
   "license": "MIT",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -27,21 +27,24 @@
     "README.md"
   ],
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/fs-extra": "^5.0.4",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^8.10.38",
-    "chai": "^4.2.0",
-    "hardhat": "^2.0.0",
-    "mocha": "^7.1.2",
-    "prettier": "2.0.5",
-    "ts-node": "^8.1.0",
-    "tslint": "^5.16.0",
+    "@types/chai": "^4.3.5",
+    "@types/fs-extra": "^11.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.5",
+    "chai": "^4.3.7",
+    "hardhat": "^2.17.0",
+    "mocha": "^10.2.0",
+    "prettier": "3.0.0",
+    "ts-node": "^10.9.1",
+    "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^4.0.3"
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "hardhat": "^2.0.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3"
   }
 }
