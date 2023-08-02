@@ -1,6 +1,6 @@
 {
   "name": "modified-hardhat-change-network",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Hardhat TypeScript plugin boilerplate",
   "repository": "github:hyunsooda/hardhat-change-network",
   "author": "Modified by Hyunsoo Shin (Origin author: David Mihal)",
