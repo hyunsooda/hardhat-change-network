@@ -10,6 +10,7 @@ declare module "hardhat/types/runtime" {
   // This new field will be available in tasks' actions, scripts, and tests.
   export interface HardhatRuntimeEnvironment {
     changeNetwork(newNetwork: string): void;
-    getProvider(newNetwork: string): EthereumProvider;
+    getNetwork(newNetwork: string): object;
+    getProvider(newNetwork: string): Promise<EthereumProvider>;
   }
 }
